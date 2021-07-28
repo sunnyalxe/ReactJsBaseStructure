@@ -1,0 +1,19 @@
+
+.ReactModal__Overlay{background: rgba(0,0,0,0.3) !important;}
+
+.ReactModal__Content{padding:0px !important; box-shadow: 0px 3px 9px 0px rgb(0 0 0 / 6%);    border: 0px !important;}
+.ReactModal-Header{height: var(--formview-topstrip-height) !important;  line-height: var(--formview-topstrip-height);   background: var(--modal-head-bg) !important;
+    border-bottom: 1px solid var(--common-border-color);}
+.ReactModal-Header h1{font-size: var(--font-size-16); padding: 0 20px;  margin: 0px; background: transparent;   width: 100%; color: var(--modal-topheadingfix-color) !important;    }
+.Reactmodal-CloseBtn{height: var(--common-button-height);  border-radius: var(--common-input-border-radius);  background: var(--color-primary-maroon); display: grid;
+    align-items: center;   width: var(--common-button-height);  place-content: center; margin-left: auto; margin-right: 5px;   font-size: 0px ; border:0px; outline:none; color: var(--color-white) ;}
+.Reactmodal-CloseBtn:before{font-family: "Material Design Icons";  text-indent: inherit;    content: "\F0156"; font-size: var(--font-size-18);      height: auto ; border:0px; outline:none}
+.Reactmodal-CloseBtn:hover,
+.Reactmodal-CloseBtn:focus{background: var(--btn-common-bg-hvr); border-color: var(--btn-common-brdr-hvr); color:var(--btn-common-color-hvr) !important}
+
+
+.ReactModal-Content-Container{ margin: auto; max-width: 100%;  background: #fff;}
+.ReactModal-middle-container{   overflow: auto; padding: 20px; max-height: 500px;}
+.ReactModal-Footer{   overflow: auto;}
+
+

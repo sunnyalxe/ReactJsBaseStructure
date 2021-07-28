@@ -1,0 +1,65 @@
+#photo-upload {
+  display: none;
+}
+
+.custom-file-upload {
+    display: inline-block;
+  position: relative;
+  padding: 0px;
+  cursor: pointer;
+  border:2px solid #eaecf0;
+  margin-bottom: 25px;
+  background: none;
+  width: 130px !important;
+  height: 130px !important;
+  display: flex;
+  align-items: center;
+  place-content: center;
+}
+
+.img-wrap{
+  position: relative;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  display: flex;
+  place-content: center;
+  align-items: center;
+}
+
+.img-upload:before{
+  font-family: "Material Design Icons";
+  content: "\F0552";
+  font-size: 50px;
+  position: absolute;  
+  top: 0;
+  left: 0;
+  bottom:0; 
+  right:0;
+  margin: auto;
+  text-align: center;
+  color: var(--color-gray22);
+  width: 120px;
+  height: 120px;
+  line-height:120px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(255,255,255,0.8);
+}
+.img-upload:hover:before{
+  opacity: 1;
+}
+.photo-upload-img {
+  width: auto;
+  height: 100%;
+}
+
+.label{
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #676767;
+}
+.profile-image-block{
+  width: 120px;
+}
+.profile-content-block{width:calc(100% - 120px)}

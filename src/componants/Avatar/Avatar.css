@@ -1,0 +1,9 @@
+.mp-avatar {
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 50%;
+  background: #0c540c;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  margin: 5px 0;
+}
